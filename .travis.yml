@@ -29,6 +29,7 @@ jobs:
         - npm run test
     
     - stage: deploy
+      name: "deploy"
       if: branch == master && !fork
       node_js: 'node'
       script:
