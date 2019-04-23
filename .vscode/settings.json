@@ -1,0 +1,18 @@
+{
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/*.js": false,
+    "dist": false
+  },
+  "typescript.tsdk": "./node_modules/typescript/lib",
+  "editor.formatOnSave": true,
+  "tslint.autoFixOnSave": true,
+  "files.insertFinalNewline": true,
+  "typescript.preferences.quoteStyle": "single",
+  "editor.detectIndentation": false,
+  "editor.tabSize": 2
+}
