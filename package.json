@@ -18,14 +18,16 @@
     "ts-node": "8.0.2",
     "tslint": "5.16.0",
     "tsutils": "3.10.0",
-    "typescript": "3.4.4"
+    "typescript": "3.4.4",
+    "semantic-release": "15.13.3"
   },
   "optionalDependencies": {
     "reflect-metadata": "0.1.12"
   },
   "scripts": {
     "lint": "tslint --exclude '**/*.d.ts' src/**/*.ts",
-    "test": "npm run lint && NODE_ENV=test jest --coverage --bail"
+    "test": "npm run lint && NODE_ENV=test jest --coverage --bail",
+    "release": "semantic-release"
   },
   "repository": {
     "type": "git",

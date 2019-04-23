@@ -28,12 +28,11 @@ jobs:
       script:
         - npm run test
     
-    - stage: publish
-      if: (branch = master)
-      name: "Auto release packages"
+    - stage: deploy
+      if: branch == master && !fork
+      node_js: 'node'
       script:
-        - scripts/publish.sh
-
+        - npm run release
 notifications:
   email:
     recipients:
