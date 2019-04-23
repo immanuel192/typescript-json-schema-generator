@@ -26,7 +26,6 @@ jobs:
     - stage: test
       name: "Unit test"
       script:
-        - npm install --no-package-lock
         - npm run test
     
     - stage: publish
