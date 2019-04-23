@@ -6,6 +6,7 @@ src
 .npmrc
 .nvmrc
 tsconfig.json
+tsconfig-prod.json
 tslint.json
 .babelrc
 .vscode
